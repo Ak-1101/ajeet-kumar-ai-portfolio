@@ -537,7 +537,7 @@ export const INITIAL_DOCUMENTS: DocumentItem[] = [
     description: 'National Mission on Education through ICT (MHRD, Govt. of India).',
     category: 'Certification',
     file_url: '/certs/iit-bombay-c-programming.jpg',
-    file_size: '78 KB',
+    file_size: '91 KB',
     is_current_cv: false,
     visibility: 'public',
     featured: false,
