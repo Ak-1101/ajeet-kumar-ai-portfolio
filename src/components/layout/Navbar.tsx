@@ -18,16 +18,18 @@ import {
   Mail,
   User,
   FlaskConical,
+  Award,
 } from 'lucide-react';
 
 const NAV_LINKS = [
   { name: 'Home', href: '/', icon: Sparkles },
   { name: 'About', href: '/about', icon: User },
+  { name: 'Qualifications', href: '/education', icon: GraduationCap },
   { name: 'Experience', href: '/experience', icon: Briefcase },
   { name: 'Skills', href: '/skills', icon: Layers },
   { name: 'Projects', href: '/projects', icon: FlaskConical },
   { name: 'Research', href: '/research', icon: BookOpen },
-  { name: 'Certifications', href: '/certifications', icon: GraduationCap },
+  { name: 'Certifications', href: '/certifications', icon: Award },
   { name: 'Blog', href: '/blog', icon: BookOpen },
   { name: 'Contact', href: '/contact', icon: Mail },
 ];

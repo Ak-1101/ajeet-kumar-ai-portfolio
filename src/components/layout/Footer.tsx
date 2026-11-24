@@ -63,6 +63,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/education" className="hover:text-cyan-400 transition-colors">
+                  Qualifications & Degrees
+                </Link>
+              </li>
+              <li>
                 <Link href="/experience" className="hover:text-cyan-400 transition-colors">
                   Professional Experience Timeline
                 </Link>
