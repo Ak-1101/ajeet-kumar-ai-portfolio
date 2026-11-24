@@ -513,18 +513,38 @@ VALUES
   1
 );
 
--- 5. Certifications Seed (Verified with uploaded documents)
+-- 5. Certifications Seed (Chronological sequence verified with uploaded documents)
 INSERT INTO public.certifications (title, issuing_organization, issue_date, credential_id, credential_url, certificate_file_url, badge_details, display_order)
 VALUES
 (
-  'Upskilling Faculty Development Program (FDP)',
-  'CollegeDekho / ImaginXP',
-  '2025',
-  'TEQ-9.4',
+  'Generative AI Fundamentals',
+  'Databricks Academy',
+  '12 Nov 2026',
+  'DB-GENAI-2026',
   NULL,
-  '/certs/collegedekho-fdp-gold.jpg',
-  'Gold Badge | Tech Excellence Quotient (TEQ): 9.4/10',
+  '/certs/databricks-generative-ai.pdf',
+  'Databricks Certified Associate',
   1
+),
+(
+  'Certificate of Completion on GEN AI NASSCOM',
+  'SFJ / NASSCOM Industry Competency Standards',
+  '18 Sep 2026',
+  'SFJ-GENAI-NASSCOM',
+  NULL,
+  '/certs/sfj-genai-nasscom.jpg',
+  'Aligned with Industry Competency Standards & Approved by Central Government',
+  2
+),
+(
+  'AWS Cloud Practitioner Essentials',
+  'AWS Training & Certification',
+  '15 Sep 2026',
+  'AWS-CPE-2026',
+  NULL,
+  '/certs/aws-cloud-practitioner.pdf',
+  'AWS Official Completion Certificate',
+  3
 ),
 (
   'Introduction to Data Science',
@@ -533,8 +553,28 @@ VALUES
   'b79a0f66-a00c-4d29-98ed-862c92e969bb',
   NULL,
   '/certs/cisco-intro-data-science.pdf',
-  'Cisco Certified',
-  2
+  'Networking Academy Verified Credential | Director: Lynn Bloomer',
+  4
+),
+(
+  'CIGAI 2026 Research Paper Presentation Certificate (LowRankAutoT)',
+  'Aditya Institute of Technology and Management (AITAM) / Springer Partner',
+  '16–17 Jul 2026',
+  'CIGAI-2026-PRES-01',
+  NULL,
+  '/certs/cigai-2026-research-certificate.jpg',
+  '2nd Int Conference on Mathematical Modelling, CI & GenAI',
+  5
+),
+(
+  'Upskilling Faculty Development Program (FDP)',
+  'CollegeDekho / ImaginXP',
+  'Oct 2025',
+  'TEQ-9.4',
+  NULL,
+  '/certs/collegedekho-fdp-gold.jpg',
+  'Gold Badge | Tech Excellence Quotient (TEQ): 9.4/10 | CAO: Prof. Abhayjeet Singh',
+  6
 ),
 (
   'Data Analytics Essentials',
@@ -543,47 +583,7 @@ VALUES
   '3a5bd8c7-d283-420f-86a9-a6b90be79456',
   NULL,
   '/certs/cisco-data-analytics.pdf',
-  'Cisco Certified',
-  3
-),
-(
-  'AWS Cloud Practitioner Essentials',
-  'AWS Training & Certification',
-  'September 15, 2026',
-  'AWS-CPE-2026',
-  NULL,
-  '/certs/aws-cloud-practitioner.pdf',
-  'AWS Official Completion',
-  4
-),
-(
-  'Generative AI Fundamentals',
-  'Databricks Academy',
-  '11/12/2026',
-  'DB-GENAI-2026',
-  NULL,
-  '/certs/databricks-generative-ai.pdf',
-  'Databricks Certified',
-  5
-),
-(
-  'Certificate of Completion on GEN AI NASSCOM',
-  'SFJ / NASSCOM Industry Competency Standards',
-  '18/9/2026',
-  'SFJ-GENAI-NASSCOM',
-  NULL,
-  '/certs/sfj-genai-nasscom.jpg',
-  'Government Approved Competency Standards',
-  6
-),
-(
-  'Digital 101 Journey',
-  'NASSCOM FutureSkills Prime',
-  '17/12/2023',
-  'FSP/2023/12/0148257',
-  NULL,
-  '/certs/nasscom-digital-101.pdf',
-  'MeitY & NASSCOM Digital Skilling Initiative',
+  'Cisco Certified Credential',
   7
 ),
 (
@@ -597,24 +597,34 @@ VALUES
   8
 ),
 (
-  'Certificate for Completion of C Training',
-  'Spoken Tutorial Project, IIT Bombay',
-  'March 22, 2018',
-  'IITB-ST-C-2018',
+  'Digital 101 Journey',
+  'NASSCOM FutureSkills Prime',
+  '17 Dec 2023',
+  'FSP/2023/12/0148257',
   NULL,
-  '/certs/iit-bombay-c-programming.jpg',
-  'National Mission on Education through ICT (MHRD)',
+  '/certs/nasscom-digital-101.pdf',
+  'MeitY & NASSCOM Digital Skilling Initiative',
   9
 ),
 (
-  'Python for Beginners',
-  'Udemy',
-  '2022',
-  'UDEMY-PY-01',
-  NULL,
-  NULL,
-  'Verified Coursework',
+  'Python for Beginners - Python Programming',
+  'Udemy (Start-Tech Trainings)',
+  '25 Feb 2022',
+  'UC-3ed4c05a-75a8-47fb-bd23-e66ae0d471d2',
+  'https://ude.my/UC-3ed4c05a-75a8-47fb-bd23-e66ae0d471d2',
+  '/certs/udemy-python-for-beginners.pdf',
+  'Certificate of Completion (3 total hours) | Ref: 0004',
   10
+),
+(
+  'Certificate for Completion of C Training',
+  'Spoken Tutorial Project, IIT Bombay',
+  '22 Mar 2018',
+  'IITB-ST-C-2018',
+  NULL,
+  '/certs/iit-bombay-c-programming.jpg',
+  'National Mission on Education through ICT (MHRD, Govt. of India) | APEX College',
+  11
 );
 
 -- 6. Documents Seed
