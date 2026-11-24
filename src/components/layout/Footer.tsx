@@ -112,7 +112,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/api/cv/download" className="hover:text-cyan-400 transition-colors">
+                <a
+                  href="/api/cv/download"
+                  download="Ajeet_Kumar_CV.pdf"
+                  className="hover:text-cyan-400 transition-colors"
+                >
                   Download Latest Verified CV
                 </a>
               </li>
